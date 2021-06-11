@@ -1,0 +1,2 @@
+#使用valgrind检测内存泄露
+valgrind --tool=memcheck --leak-check=full --show-reachable=yes ./main
